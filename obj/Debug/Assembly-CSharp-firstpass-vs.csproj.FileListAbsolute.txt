@@ -1,0 +1,12 @@
+D:\Unity Projekte\SmartphoneGame\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+D:\Unity Projekte\SmartphoneGame\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\Unity Projekte\SmartphoneGame\Temp\bin\Debug\UnityEditor.dll
+D:\Unity Projekte\SmartphoneGame\Temp\bin\Debug\UnityEngine.dll
+D:\Unity Projekte\SmartphoneGame\Temp\bin\Debug\Mono.Cecil.dll
+D:\Unity Projekte\SmartphoneGame\Temp\bin\Debug\nunit.framework.dll
+D:\Unity Projekte\SmartphoneGame\Temp\bin\Debug\Unity.DataContract.dll
+D:\Unity Projekte\SmartphoneGame\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+D:\Unity Projekte\SmartphoneGame\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
+D:\Unity Projekte\SmartphoneGame\obj\Debug\Assembly-CSharp-firstpass.dll
+D:\Unity Projekte\SmartphoneGame\obj\Debug\Assembly-CSharp-firstpass.pdb
+D:\Unity Projekte\SmartphoneGame\Temp\bin\Debug\UnityEngine.UI.dll

@@ -1,0 +1,13 @@
+D:\Unity Projekte\SmartphoneGame\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+D:\Unity Projekte\SmartphoneGame\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+D:\Unity Projekte\SmartphoneGame\Temp\UnityVS_bin\Debug\Assembly-UnityScript-firstpass.dll
+D:\Unity Projekte\SmartphoneGame\Temp\UnityVS_bin\Debug\UnityEditor.dll
+D:\Unity Projekte\SmartphoneGame\Temp\UnityVS_bin\Debug\UnityEngine.dll
+D:\Unity Projekte\SmartphoneGame\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+D:\Unity Projekte\SmartphoneGame\Temp\UnityVS_bin\Debug\Assembly-CSharp-firstpass.pdb
+D:\Unity Projekte\SmartphoneGame\Temp\UnityVS_bin\Debug\UnityEngine.xml
+D:\Unity Projekte\SmartphoneGame\Temp\UnityVS_bin\Debug\UnityEditor.xml
+D:\Unity Projekte\SmartphoneGame\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+D:\Unity Projekte\SmartphoneGame\obj\Debug\UnityVS.SmartphoneGame.CSharp.csprojResolveAssemblyReference.cache
+D:\Unity Projekte\SmartphoneGame\obj\Debug\Assembly-CSharp.dll
+D:\Unity Projekte\SmartphoneGame\obj\Debug\Assembly-CSharp.pdb

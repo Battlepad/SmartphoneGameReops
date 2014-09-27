@@ -1,0 +1,26 @@
+Initialize engine version: 4.5.3f3 (fca41a4fabea)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon R9 200 Series (ID=0x679a)
+    Vendor:   ATI
+    VRAM:     3054 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Unity Projekte\SmartphoneGame\Builds\Win\SmartphoneGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Unity Projekte\SmartphoneGame\Builds\Win\SmartphoneGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Unity Projekte\SmartphoneGame\Builds\Win\SmartphoneGame_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Unity Projekte\SmartphoneGame\Builds\Win\SmartphoneGame_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Unity Projekte\SmartphoneGame\Builds\Win\SmartphoneGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Unity Projekte\SmartphoneGame\Builds\Win\SmartphoneGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Unity Projekte\SmartphoneGame\Builds\Win\SmartphoneGame_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading D:\Unity Projekte\SmartphoneGame\Builds\Win\SmartphoneGame_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+- Completed reload, in  0.044 seconds
+desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.366048 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 100.
+Total: 0.692289 ms (FindLiveObjects: 0.008397 ms CreateObjectMapping: 0.010885 ms MarkObjects: 0.083970 ms  DeleteObjects: 0.005287 ms)
+
