@@ -24,7 +24,6 @@ public class DataStorage {
     public static int yCoordinatesFloorDown = -5;
     public static float yCoordinatesFloorUp = 5.5f;
 
-
 	// Use this for initialization
 	void Start () {
 	
@@ -44,4 +43,5 @@ public class DataStorage {
     {
         return yCoordinatesFloorUp;
     }
+
 }

@@ -5,14 +5,16 @@ public class MenuControl : MonoBehaviour {
 
     public GameObject gameOverMenu = null;
     public GameObject tapToBegin = null;
+    public GameObject slowMotion = null;
 
 	// Use this for initialization
 	void Start () {
-	
-	}
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
+        //Gamestates
         if (GameState.Instance.GetState() == State.GameOver)
 		{
             gameOverMenu.SetActive(true); // TODO: only once
@@ -50,5 +52,13 @@ public class MenuControl : MonoBehaviour {
             }
 #endif
         }
+
+        //Powerups
+        if (PowerUpController.Instance.SlowMotionAvailable())
+            slowMotion.SetActive(true);
+        else
+            slowMotion.SetActive(false);
+            //Deactivate
+        //if(slowMotion.
 	}
 }

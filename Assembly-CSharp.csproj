@@ -46,11 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\PowerUpController.cs" />
+     <Compile Include="Assets\Rotate.cs" />
      <Compile Include="Assets\Scripts\Acceleration.cs" />
      <Compile Include="Assets\Scripts\AchievementSoundController.cs" />
      <Compile Include="Assets\Scripts\Audio\AudioMenu.cs" />
      <Compile Include="Assets\Scripts\DataStorage.cs" />
      <Compile Include="Assets\Scripts\DirectToMainMenu.cs" />
+     <Compile Include="Assets\Scripts\FloatingObstacle.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\GameState.cs" />
      <Compile Include="Assets\Scripts\HighscoreFetcher.cs" />
@@ -60,6 +63,7 @@
      <Compile Include="Assets\Scripts\Menu\ScriptFunctions.cs" />
      <Compile Include="Assets\Scripts\MenuControl.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\PlayerProperties.cs" />
      <Compile Include="Assets\Scripts\SelfDestroy.cs" />
      <None Include="Assets\Fonts\Improved version by Aleksandar Djoba\boombox2.txt" />
  <Reference Include="UnityEngine.UI">
