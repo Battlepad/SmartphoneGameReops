@@ -13,5 +13,4 @@ public class Initialization : MonoBehaviour {
 	void Update () {
 	
 	}
-
 }

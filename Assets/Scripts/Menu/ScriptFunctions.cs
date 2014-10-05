@@ -36,14 +36,4 @@ public class ScriptFunctions : MonoBehaviour {
     {
         Application.LoadLevel("Menu");
     }
-
-    public void GoToControls()
-    {
-        Application.LoadLevel("Controls");
-    }
-
-    public void ActivateSlowMotion()
-    {
-        PowerUpController.Instance.ActivateSlowMotion();
-    }
 }

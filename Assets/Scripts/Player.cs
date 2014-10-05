@@ -13,7 +13,6 @@ public class Player : MonoBehaviour {
 
     private bool possibleSwipe = false;
     private float touchBegin = 0;
-    private float beginOfTouchTime = 0;
 
     public GameObject score = null;
     public GameObject debugGUI = null;
@@ -32,8 +31,7 @@ public class Player : MonoBehaviour {
         if (GameState.Instance.GetState() == State.OnGoing)
         {
             //this.GetComponent<CharacterController>().detectCollisions = false;
-            this.GetComponent<CharacterController>().Move(new Vector2(PlayerProperties.Instance.GetPlayerSpeed(), 0));
-            Debug.Log(PlayerProperties.Instance.GetPlayerSpeed());
+            this.GetComponent<CharacterController>().Move(new Vector2(playerSpeed, 0));
 #if UNITY_ANDROID && !UNITY_EDITOR
             this.GetComponent<CharacterController>().Move(new Vector2(0, -Input.acceleration.x * sensitivity));
             debugGUI.guiText.text = Input.acceleration.x.ToString();
@@ -43,16 +41,14 @@ public class Player : MonoBehaviour {
                 {
                     Debug.Log("Touch began at: " + Input.touches[0].position.y);
                     touchBegin = Input.touches[0].position.y;
-                    beginOfTouchTime = Time.time;
                 }
-                if (Input.touches[0].phase == TouchPhase.Ended && Mathf.Abs(touchBegin - Input.touches[0].position.y) >= Screen.height / 6 && Time.time - beginOfTouchTime <= 0.2f )
+                if (Input.touches[0].phase == TouchPhase.Ended && Mathf.Abs(touchBegin - Input.touches[0].position.y) >= Screen.height / 4)
                 {
-                    Debug.Log("Touch ended at: " + Input.touches[0].position.y + " and time: " + (Time.time - beginOfTouchTime));
+                    Debug.Log("Touch ended at: " + Input.touches[0].position.y);
                     if(touchBegin - Input.touches[0].position.y < 0)
                         this.GetComponent<CharacterController>().Move(new Vector2(0, 1));
                     if(touchBegin - Input.touches[0].position.y > 0)
                         this.GetComponent<CharacterController>().Move(new Vector2(0, -1));
-                    beginOfTouchTime = 0;
                 }
             }
 #else
@@ -89,13 +85,6 @@ public class Player : MonoBehaviour {
                 achievementAudioSource.GetComponent<AchievementSoundController>().PlaySound();
                 achievementCounter = 0;
             }
-        }
-
-        if (hit.gameObject.name.Contains("PowerupTime"))
-        {
-            Debug.Log("hit: " + hit.gameObject.name);
-            PowerUpController.Instance.SetSlowMotionAvailable();
-            Destroy(hit.gameObject);
         }
 
         if (hit.gameObject.name.Contains("Obstacle"))
